@@ -7,7 +7,7 @@ This repository contains a front-end web application in Javascript, HTML and Boo
 ## Background
 
 ## Data
-[UFO Sightseeing data](https://github.com/aidinhass/ufo-browser/blob/master/resources/js/ufo_data.js) 
+[UFO Sightseeing data](https://github.com/aidinhass/ufo-browser/blob/master/resources/data/ufo_data.js) 
 ## Requirements
 
 ## Directory Structure

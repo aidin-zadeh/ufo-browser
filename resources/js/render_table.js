@@ -116,13 +116,14 @@ function search_handler(event) {
 
     // parse form inputs
     let date_in = $dateInput.value.toString();
-    console.log(date_in)
+    console.log(date_in);
     if (date_in) {
         let date_arr = date_in.split("-");
         date_in = date_arr[1] + "/" + date_arr[2] + "/" + date_arr[0];
         // alert(date_in);
     }
-    console.log(date_in)
+
+    console.log(date_in);
 
     let city_in = $cityInput.value.replace("/[^0-9a-z]/gi", "").trim().toLowerCase();
     let state_in = $stateInput.value.replace("[^0-9a-z]//gi", "").trim().toLowerCase();
@@ -141,7 +142,7 @@ function search_handler(event) {
         let state_rc = record.state.replace("[^0-9a-z]//gi", "").trim().toLowerCase().substring(0, state_in.length);
         let country_rc = record.country.replace("[^0-9a-z]//gi", "").trim().toLowerCase().substring(0, country_in.length);
         let shape_rc = record.shape.replace("[^0-9a-z]//gi", "").trim().toLowerCase().substring(0, shape_in.length);
-        if ((date_in === date_rc || date_in === "") &&
+        if ((new Date(date_in).getDate() === new Date(date_rc).getDate() || date_in === "") &&
             (city_in === city_rc || city_in === "") &&
             (state_in === state_rc || state_in === "") &&
             (country_in === country_rc || country_in === "") &&

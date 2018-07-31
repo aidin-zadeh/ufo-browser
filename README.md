@@ -1,6 +1,6 @@
 # UFO Browser
 This repository contains a front-end web application in Javascript, HTML and Bootstrap that allows user browse the UFO sightseeing data. The current implementation of this project implements the following objectives:
-i Append table to web app pulling data from a `.js` file.
+- Append table to web app pulling data from a `.js` file.
 - Perform data filtering by input/drop-down forms.
 - Append pagination including the maximum number of rows to display.
 

@@ -1,0 +1,17 @@
+#pageNav {
+position:auto;
+left:50%;top:0;
+
+/*margin-left:-375px; !* negative margin equal to half the width *!*/
+/*width:80%;*/
+list-style:none;
+}
+#pageNav li {
+float:left;
+}
+#pageNav a {
+display:block;
+text-align:center;
+/*width:150px; !* fixed width *!*/
+text-decoration:none;
+}

@@ -13,14 +13,14 @@ This repository contains a front-end web application in Javascript, HTML and Boo
 ## Directory Structure
 ```
 .
-├── images		<- Images for README.md files
+├── images		    <- Images for README.md files
 ├── resources		<- Resource files
-│   ├── css		<- default css files
+│   ├── css		    <- default css files
 │   │   └── images	<- images used Style sheets
-│   ├── ufo_data		<- ufo_data used by the web app
+│   ├── data		<- data used by the web app
 │   ├── images		<- images directly used by the web app
-│   └── js		<- Javascript codes
-└── vendors		<- General purpose and libraries 
+│   └── js		    <- Javascript codes
+└── vendors		    <- General purpose and libraries 
 ```
 
 ## References

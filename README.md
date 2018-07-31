@@ -1,8 +1,8 @@
 # UFO Browser
-This repository contains a front-end web application in Javascript, HTML and Bootstrap that allows user browse the UFO sightseeing data. The current implementation of this project implements the followings:
-- Append table to web app pulling data from a `.js` file.
+This repository contains a front-end web application in Javascript, HTML and Bootstrap that allows user browse the UFO sightseeing data. The current implementation of this project implements the following objectives:
+i Append table to web app pulling data from a `.js` file.
 - Perform data filtering by input/drop-down forms.
-- Implement pagination that include maximum number of rows 
+- Append pagination including the maximum number of rows to display.
 
 ## Background
 
@@ -26,12 +26,12 @@ This repository contains a front-end web application in Javascript, HTML and Boo
 ## References
 
 ## To Do
-- [ x ] Add clean data
-- [ x ] Add pagination
-- [ x ] Add max row number
-- [ x ] Add Date object to date filter logic
-- [  ] Add next button handler
-- [  ] Add back button handler
-- [  ] Add requirements
+- [x] Add clean data
+- [x] Add pagination
+- [x] Add max row number
+- [x] Add Date object to date filter logic
+- [ ] Add next button handler
+- [ ] Add back button handler
+- [ ] Add requirements
 ## License
 MIT License

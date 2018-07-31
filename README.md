@@ -4,6 +4,9 @@ This repository contains a front-end web application in Javascript, HTML and Boo
 - Perform data filtering by input/drop-down forms.
 - Append pagination including the maximum number of rows to display.
 
+Visit [https://aidinhass.github.io/ufo-browser/](https://aidinhass.github.io/weather-board/).
+
+
 ## Background
 
 ## Data
